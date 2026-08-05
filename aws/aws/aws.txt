@@ -1,0 +1,52 @@
+AWS Cloud Practitioner Essentials
+------------------------------------------------
+INTRODUCTION
+	Client server model
+	You pay as you go 
+		- Billing is not fixed(as is in on premise servers). its variable. built in billing and budgeting tools
+		- Benefir from massive economies of scale - Amazon buys datacentres in massive quantities, making per piece cost low. this refletctsin costing
+		- Stop guessing capacity - No need to guess the userbase. no overestimating or underestimating the capacity. Scaling takes mins as compared to weeks in on premises datacentre
+		- Increased speed and agility - less time provisioning and de-provisioning and more time innovating
+		- Stop spending money running and maintaining datacentre
+		- Go global in minutes - datacentres required in other countries in case of on premise datacentre
+	Cloud computing - on demand delivery of IT resources over the internet with pas-as-you-go pricing
+	Amazon Simple Queue Service (SQS)
+	Amazon Simple Storgae Service (S3) - data storage
+	Amazon Elastic Compute Cloud (EC2) - scalable compute
+	
+	AWS Global Infrastructure
+		AWS Regions and Availability Zones
+			Availability - aking sure your apps stays accessible with minimal downtime
+			Fault tolerance - designs a system to continue to operate even if multiple components fail
+			Each AWS Regions has 3 or more AZs for redundancy. each AZ has one or more discrete datacentre. with redundant power, networking and connectivity
+	AWS Shared Responsibility Model
+		Both AWS and the user are responsibility for security. AWS is responsible for security of the cloud. Customer if responsiblefor the security in the cloud.
+		
+COMPUTE IN THE CLOUD
+	Amazon Elastic Compute Cloud - EC2 - Compute as a service model
+		- raw compute capacity to host your apps and provide the compute power that the business needs
+		- Flexible, cost-effective and quick
+		- Request the EC2 instances u want. Stop or terminate the EC2 instances
+		- Pay for only running instances. Not stopped or terminated ones
+		- EC2 are VMs. VMs share an underlying physical host machine with multiple other instances this concept is calles multi-tenancy. in a multitenant env, u need to make sure that each VM is isolated from eo. but is still able to share resources provided by the host. this job of resource sharing and isolation is being done by a pieec of s/w called a hypervisor which runs on the host machine. in EC2, aws manages the underlying host, the hypervisor and the isolation for each instance.
+		- When u provision an EC2 instance, u can shoose the OS. U can configure the s/w running on the instance.
+		- EC2 instances are resizable. U can give it more memory or CPU(vertical scaling). U also control the networking aspect of the instance. U decide what type of request make it to the server. Or if they are publically or privately accessible.
+	Types of EC2 instances
+		- Instance types are grouped under instance families based on CPU, memory, storage and networking capacity
+		- The instance families are:
+			* General purpose : good balance of compute, memory and networking resources. Best for: Web services and code repositories
+			* Compute optimised : ideal for compute intensive tasks. Eg gaming services, HPC, ML tasks and even scientific modelling
+			* Memory optimised : ideal for memory intensive tasks. Fast performance for workloads that process large datasetsin memory
+			* Accelerated computing : floating pt number calc, graphics processing or data pattern matching. Use hardware accelerator. Co-processors that perform functions mode efficiently than is possible on s/w running on CPUs
+			* Storage optimised : Ideal for workloads that require high performance for locally stored data
+	How to provision AWS resources
+		Call APIs using
+			AWS Management Consle: Browser based.
+			AWS CLI: Text based inputs. Automation through scripting possible
+				* CloudShell
+				* 
+			AWS SDK: Through programming languages. 
+	Launching an Amazon EC2 instance
+	
+			
+		
