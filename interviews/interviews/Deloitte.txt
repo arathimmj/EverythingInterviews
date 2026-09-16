@@ -1,0 +1,207 @@
+For the Deloitte USI – AI & Engineering (AI&E) – EaaS – Software Engineer II – Full Stack Java with Angular role, expect the interview to focus on your practical development experience rather than just theory. Candidates frequently report 2–3 technical rounds followed by a managerial/HR discussion, with heavy emphasis on project deep dives and Java/Spring Boot fundamentals.
+
+1. Technical topics to prepare
+Java (Highest Priority)
+
+Be able to explain and write code for:
+
+OOP concepts
+Collections (HashMap, ConcurrentHashMap, ArrayList, HashSet)
+Exception handling
+Java 8 features
+Streams
+Lambda expressions
+Optional
+Functional Interfaces
+CompletableFuture
+Multithreading
+Synchronization
+ExecutorService
+Garbage Collection
+String vs StringBuilder vs StringBuffer
+
+Sample questions:
+
+Difference between map() and flatMap()
+How does HashMap work internally?
+Explain CompletableFuture.
+How do you make a class immutable?
+
+These topics have appeared in recent Software Engineer II interviews.
+
+Spring Boot
+
+Prepare:
+
+Spring Boot architecture
+Dependency Injection
+Bean lifecycle
+Spring Security
+JWT Authentication
+OAuth2 basics
+Spring Data JPA
+Hibernate
+Transactions
+Validation
+Exception Handling
+Actuator
+REST APIs
+
+Questions:
+
+Explain your REST API design.
+Difference between @Component, @Service, @Repository.
+How does Spring Security authentication work?
+Global Exception Handling.
+Microservices
+
+Know:
+
+API Gateway
+Service Discovery
+Circuit Breaker
+Feign Client
+Kafka
+Docker
+Kubernetes basics
+Saga Pattern
+Distributed Transactions
+
+Interviewers often ask:
+
+Why microservices instead of monolith?
+How do services communicate?
+How do you secure APIs?
+Angular (Very Important)
+
+The current role description specifically emphasizes modern Angular skills such as RxJS, reactive forms, dependency injection, routing, authentication, state management, testing, and performance optimization.
+
+Prepare:
+
+Components
+Modules
+Services
+Dependency Injection
+Routing
+Route Guards
+Reactive Forms
+RxJS
+Observables
+HTTP Client
+Lazy Loading
+Angular Lifecycle Hooks
+State Management (NgRx basics)
+JWT Authentication
+Interceptors
+
+Questions:
+
+Observable vs Promise
+Subject vs BehaviorSubject
+ngOnInit vs Constructor
+Lazy Loading
+Change Detection
+Database
+
+Prepare SQL:
+
+Joins
+Group By
+Window Functions
+Indexes
+Normalization
+Transactions
+
+Coding:
+
+Find second highest salary
+Remove duplicate rows
+Nth highest salary
+Coding
+
+Practice 10–15 problems on:
+
+Arrays
+Strings
+HashMap
+Stack
+Queue
+Linked List
+
+Difficulty:
+
+Easy to Medium (LeetCode)
+2. Project Discussion (Very Important)
+
+Deloitte interviewers commonly spend significant time asking about your actual projects and your specific contributions.
+
+Be ready to explain:
+
+Architecture
+APIs
+Authentication
+Database design
+Challenges faced
+Performance optimization
+Production issues
+Your exact contribution
+
+Prepare a 5-minute explanation of your latest project.
+
+3. System Design (4–7 Years Experience)
+
+Expect a low-to-medium level system design discussion.
+
+Practice:
+
+URL Shortener
+Library Management
+Employee Management
+Food Delivery
+E-commerce
+
+Know:
+
+Scalability
+Caching
+Load Balancer
+Database choices
+API Design
+4. Managerial Round
+
+Typical questions:
+
+Tell me about yourself.
+Why Deloitte?
+Why are you changing jobs?
+Biggest challenge in your project.
+Conflict with a teammate.
+Leadership experience.
+Client interaction.
+How do you handle deadlines?
+
+Use the STAR (Situation, Task, Action, Result) format.
+
+5. AI & Engineering (AI&E)
+
+Since the role is in Deloitte's AI & Engineering practice, don't be surprised if you're asked about:
+
+AI-assisted development tools you've used
+Basic understanding of LLMs
+REST APIs for AI services
+Prompt engineering basics
+Integrating AI features into applications
+
+Deep AI expertise is usually less important than demonstrating that you're comfortable working with modern engineering practices unless the interviewer specifically steers into AI topics.
+
+One-week preparation plan
+Day	Focus
+Day 1	Core Java + Collections + Java 8
+Day 2	Spring Boot + Security + REST APIs
+Day 3	Angular + RxJS + Forms + Routing
+Day 4	SQL + Microservices + Kafka
+Day 5	Coding (LeetCode) + System Design
+Day 6	Mock interview + Project explanation
+Day 7	HR questions + Revision
+
+If you have 4–7 years of experience, I can also give you a list of 50 Deloitte Java + Angular interview questions with detailed answers that closely match this role.
